@@ -20,9 +20,9 @@ const Navbar = () => {
         setOpen(!open)
     }
   return (
-    <section  className='fixed z-10 w-full flex justify-between items-center px-4 h-14'>
+    <section  className='bg-gray-800 fixed z-10 w-full flex justify-between items-center px-4 h-14'>
              {/* logo section */}
-        <div className='text-3xl font-bold text-blue-400 cursor-pointer'>
+        <div className='text-3xl font-bold font-serif text-white cursor-pointer'>
             Car Landing Page
         </div>
 
